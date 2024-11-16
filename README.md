@@ -8,7 +8,7 @@ The requirements analysis of this project covers the functions, performance, tec
 
 Note that the code in this repo runs under **Linux** system. 
 
-The repo is based on the [Embedded repo](https://github.com/xiaolingdudu/Embedded-Projects), thus you need to install it first. The following installation sequence is taken from the VMamba repo. 
+The repo is based on the [Embedded repo](https://github.com/xiaolingdudu/Embedded-Projects), thus you need to install it first. The following installation sequence is taken from the Embedded repo. 
 
 **Step 1: Clone the repository:**
 
@@ -23,7 +23,7 @@ cd Embedded-Projects
 
 We configure the environment through Linux. Use the following commands to set up your environment:
 
-***share project***
+***A. share project***
 
 ```bash
 cd create share
