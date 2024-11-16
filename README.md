@@ -8,14 +8,14 @@ The requirements analysis of this project covers the functions, performance, tec
 
 Note that the code in this repo runs under **Linux** system. 
 
-The repo is based on the [VMama repo](https://github.com/MzeroMiko/VMamba), thus you need to install it first. The following installation sequence is taken from the VMamba repo. 
+The repo is based on the [VMama repo](https://github.com/xiaolingdudu/Embedded-Projects), thus you need to install it first. The following installation sequence is taken from the VMamba repo. 
 
 **Step 1: Clone the repository:**
 
 Clone this repository and navigate to the project directory:
 ```bash
-git clone https://github.com/zs1314/Microscopic-Mamba.git
-cd Microscopic-Mamba
+git clone https://github.com/xiaolingdudu/Embedded-Projects.git
+cd Embedded-Projects
 ```
 
 
