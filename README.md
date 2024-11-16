@@ -1,25 +1,6 @@
 
 ## Abstract
-In the field of medical microscopic image classification
-(MIC), CNN-based and Transformer-based models have been
-extensively studied. However, CNNs struggle with modeling
-long-range dependencies, limiting their ability to fully utilize
-semantic information in images. Conversely, Transformers
-are hampered by the complexity of quadratic computations.
-To address these challenges, we propose a model based on
-the Mamba architecture: Microscopic-Mamba. Specifically,
-we designed the Partially Selected Feed Forward Network
-(PSFFN) to replace the last linear layer of the Visual State
-Space Module (VSSM), enhancing Mamba’s local feature
-extraction capabilities. Additionally, we introduced the Mod-
-ulation Interaction Feature Aggregation (MIFA) module to
-effectively modulate and dynamically aggregate global and
-local features. We also incorporated a parallel VSSM mech-
-anism to improve inter-channel information interaction while
-reducing the number of parameters. Extensive experiments
-have demonstrated that our method achieves state-of-the-art
-performance on five public datasets.
-
+The requirements analysis of this project covers the functions, performance, technology and reliability of the smart home voice interaction system. The system uses voice recognition and network programming technology to control smart home devices, and users can remotely operate home devices through voice commands. In the implementation process, C language programming technology, Linux system hardware control interface, iFlytek voice recognition technology, and TCP/IP protocol will be used for client-server communication. By integrating multiple functional modules, it aims to provide a diverse smart home monitoring experience. The system not only has basic device control functions (such as unlocking and sensor data collection), but also supports entertainment functions (such as drawing board, Gobang, video playback, etc.). By integrating USB cameras and other hardware devices, the system can provide real-time monitoring and environmental monitoring while ensuring the real-time and stability of the system.
 ---
 
 ## 💎Let's Get Started!
