@@ -8,7 +8,7 @@ The requirements analysis of this project covers the functions, performance, tec
 
 Note that the code in this repo runs under **Linux** system. 
 
-The repo is based on the [VMama repo](https://github.com/xiaolingdudu/Embedded-Projects), thus you need to install it first. The following installation sequence is taken from the VMamba repo. 
+The repo is based on the [Embedded repo](https://github.com/xiaolingdudu/Embedded-Projects), thus you need to install it first. The following installation sequence is taken from the VMamba repo. 
 
 **Step 1: Clone the repository:**
 
@@ -21,78 +21,33 @@ cd Embedded-Projects
 
 **Step 2: Environment Setup:**
 
-It is recommended to set up a conda environment and installing dependencies via pip. Use the following commands to set up your environment:
+We configure the environment through Linux. Use the following commands to set up your environment:
 
-***Create and activate a new conda environment***
-
-```bash
-conda create -n msmamba
-conda activate msmamba
-```
-
-***Install dependencies***
+***share project***
 
 ```bash
-pip install -r requirements.txt
-cd kernels/selective_scan && pip install .
+cd create share
 ```
+
+
 
 ### `B. Data Preparation`
 
-The five datasets [RPE](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4760937/), [MHIST](https://bmirds.github.io/MHIST/) , [SARS](https://lhncbc.nlm.nih.gov/LHC-downloads/downloads.html#malaria-datasets) ,[TissueMnist](https://medmnist.com/) and [MedMf_colon](https://medfm2023.grand-challenge.org/medfm2023/) are used for MIC experiments. Please download them and make them have the following folder/file structure:
-```
-${DATASET_ROOT}   # Dataset root directory, for example: /home/username/data
-├── RPE
-    ├── train
-    │   ├── class 1
-    │   │   ├──00001.png
-    │   │   ├──00002.png
-    │   │   ├──00003.png
-    │   │   ...
-    │   │
-    │   ├── class 2
-    │   │   ├──00001.png
-    │   │   ... 
-    │   │
-    │   └── class n
-    │       ├──00001.png 
-    │       ...   
-    ├── val
-    │   ├── ...
-    ├── test
-    │   ├── ...
-    │   ...
-├── MHIST
-├── SARS
-├── TissueMnist
-├── MedMf_Colon
-```
-Or you can download it from here: [baidu Netdisk](https://pan.baidu.com/s/1VzCz9UOKg0hyZIjvUOR8kA?pwd=1314 )
+This project requires various pictures. Due to copyright issues, please find the pictures yourself.
 
 
-### `C. Model Training`
-
-
+### `C. Model deployment`
 ```bash
-python train.py 
+make 
 ```
 
-### `D. Model Testing`
-```bash
-python test.py 
-```
-🐥: Before training and testing, configure the relevant parameters in the script
 
-
-
-## 🤝Acknowledgments
-This project is based on VMamba ([paper](https://arxiv.org/abs/2401.10166), [code](https://github.com/MzeroMiko/VMamba)). Thanks for their excellent works!!
 
 ## 🙋Q & A
-***For any questions, please feel free to [contact us.](zs@stu.njau.edu.cn)***
+***For any questions, please feel free to [contact us.](202205570112@xtu.smail.edu.cn)***
 ## 📜Reference
 
-If this code or paper contributes to your research, please kindly consider citing our paper and give this repo ⭐️ 🌝
+If this code contributes to your research, please kindly consider citing our paper and give this repo ⭐️ 🌝
 ```
 
 
