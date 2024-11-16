@@ -1,7 +1,7 @@
 
 ## Abstract
 The requirements analysis of this project covers the functions, performance, technology and reliability of the smart home voice interaction system. The system uses voice recognition and network programming technology to control smart home devices, and users can remotely operate home devices through voice commands. In the implementation process, C language programming technology, Linux system hardware control interface, iFlytek voice recognition technology, and TCP/IP protocol will be used for client-server communication. By integrating multiple functional modules, it aims to provide a diverse smart home monitoring experience. The system not only has basic device control functions (such as unlocking and sensor data collection), but also supports entertainment functions (such as drawing board, Gobang, video playback, etc.). By integrating USB cameras and other hardware devices, the system can provide real-time monitoring and environmental monitoring while ensuring the real-time and stability of the system.
----
+---z
 
 ## 💎Let's Get Started!
 ### `A. Installation`
