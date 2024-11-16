@@ -1,12 +1,3 @@
-<div align="center">
-<img src="assets/msmamba.png">
-<h3>Microscopic-Mamba: Revealing the Secrets of Microscopic Images with Only 4M Parameters</h3>
-
-[[`Paper`]()] 
-[[`Project Page`]()]
-
-
-</div>
 
 ## Abstract
 In the field of medical microscopic image classification
@@ -28,11 +19,6 @@ anism to improve inter-channel information interaction while
 reducing the number of parameters. Extensive experiments
 have demonstrated that our method achieves state-of-the-art
 performance on five public datasets.
-
-## Overview
-<p align="center">
-  <img src="assets/overview.jpg" alt="accuracy" width="100%">
-</p>
 
 ---
 
